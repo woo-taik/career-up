@@ -11,7 +11,6 @@ import PageList from "./pages/page-list";
 import PageDetail from "./pages/page-detail";
 
 const store = create();
-
 const domain = process.env.REACT_APP_AUTH0_DOMAIN || "";
 const clientId = process.env.REACT_APP_AUTH0_CLIENT_ID || "";
 const redirectUri = process.env.REACT_APP_AUTH0_CALLBACK_URL || "";
